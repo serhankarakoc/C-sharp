@@ -11,7 +11,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Program çalışıyor");
+            Console.WriteLine("Hello world!");
         }
 
     }
@@ -22,5 +22,5 @@ Using ve namespace arasında yazılabilen basit programlardır.
 ```c#
 using System
 
-Console.WriteLine("Program çalışıyor");
+Console.WriteLine("Hello world!");
 ```
