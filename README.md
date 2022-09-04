@@ -1,5 +1,6 @@
-# C#
-## Program.cs ve Main fonksiyonu
+# C# Notları
+## Giriş
+### Program.cs ve Main fonksiyonu
 Uygulamanın başlangıç noktasıdır. Uygulama Program.cs dosyasının içerisindeki Main fonksiyonu ile başlar.
 
 ```c#
@@ -15,7 +16,7 @@ namespace Test
         }
     }
 ```
-## Top-Level Statements
+### Top-Level Statements
 Using ve namespace arasında yazılabilen basit programlardır.
 
 ```c#
@@ -24,7 +25,7 @@ using System
 Console.WriteLine("Hello world!");
 ```
 
-## Yorum satırları
+### Yorum satırları
 Yorum satırları kodlara açıklama yazmaya yarar.
 ```c#
 using System
@@ -59,7 +60,7 @@ namespace Test
     }
 ```
 
-## region
+### region
 Region kodları kategorize etmemizi sağlar
 ```c#
 using System
@@ -79,7 +80,7 @@ namespace Test
     }
 ```
 
-## todo
+### todo
 Todo yapılan yorumların daha kolay bulunmasını sağlar. Todo ile yapılan yorumlara View/Task List menüsünden açılan ekrandan erişilebilir.
 ```c#
 using System
@@ -95,3 +96,5 @@ namespace Test
         }
     }
 ```
+
+## Değişkenler
