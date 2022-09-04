@@ -24,3 +24,54 @@ using System
 
 Console.WriteLine("Hello world!");
 ```
+
+## Yorum satırları - region - todo
+Yorum satırları kodlara açıklama yazmaya yarar.
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Tek satırlık yorum
+            Console.WriteLine("Hello world!");
+        }
+
+    }
+```
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+            Çok
+            satırlı
+            yorum
+            */
+            Console.WriteLine("Hello world!");
+        }
+
+    }
+```
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello world!");
+        }
+
+    }
+```
