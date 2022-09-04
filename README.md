@@ -16,3 +16,11 @@ namespace Test
 
     }
 ```
+## Top-Level Statements
+Using ve namespace arasında yazılabilen basit programlardır.
+
+```c#
+using System
+
+Console.WriteLine("Program çalışıyor");
+```
