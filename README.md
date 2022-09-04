@@ -13,7 +13,6 @@ namespace Test
         {
             Console.WriteLine("Hello world!");
         }
-
     }
 ```
 ## Top-Level Statements
@@ -25,7 +24,7 @@ using System
 Console.WriteLine("Hello world!");
 ```
 
-## Yorum satırları - region - todo
+## Yorum satırları
 Yorum satırları kodlara açıklama yazmaya yarar.
 ```c#
 using System
@@ -39,7 +38,6 @@ namespace Test
             //Tek satırlık yorum
             Console.WriteLine("Hello world!");
         }
-
     }
 ```
 ```c#
@@ -58,10 +56,11 @@ namespace Test
             */
             Console.WriteLine("Hello world!");
         }
-
     }
 ```
-## region kodları kategorize etmemizi sağlar
+
+## region
+Region kodları kategorize etmemizi sağlar
 ```c#
 using System
 
@@ -74,9 +73,25 @@ namespace Test
             Console.WriteLine("Hello world!");
         }
         
-        #region X işlemleri
+        #region X operasyonu
         
         #endregion
+    }
+```
 
+## todo
+Todo yapılan yorumların daha kolay bulunmasını sağlar. Todo ile yapılan yorumlara View/Task List menüsünden açılan ekrandan erişilebilir.
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //todo Merhaba Dünya
+            Console.WriteLine("Hello world!");
+        }
     }
 ```
