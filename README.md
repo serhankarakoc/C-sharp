@@ -61,6 +61,7 @@ namespace Test
 
     }
 ```
+## region kodları kategorize etmemizi sağlar
 ```c#
 using System
 
@@ -72,6 +73,10 @@ namespace Test
         {
             Console.WriteLine("Hello world!");
         }
+        
+        #region X işlemleri
+        
+        #endregion
 
     }
 ```
