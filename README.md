@@ -99,6 +99,7 @@ namespace Test
 
 ## Değişkenler
 **Değersiz Tanımlama :** degisken_tipi degisken_adi; Örnek int a;
+
 **Değerli Tanımlama :** degisken_tipi degisken_adi = deger; Örnek int a = 5;
 ### Value Type
 RAM'de alan tahsis edilen veri tipleridir. Örnek: string, int.
