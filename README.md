@@ -99,6 +99,6 @@ namespace Test
 
 ## Değişkenler
 ### Value Type
-RAM'de alan tahsis edilen veri tipleridir.
+RAM'de alan tahsis edilen veri tipleridir. Örnek: string, int.
 ### Primitive Type
-Türetilmemiş veri tipleri, ham veri tipleridir. Örnek :byte
+Türetilmemiş(ham) veri tipleridir. Örnek: byte
