@@ -102,3 +102,19 @@ namespace Test
 RAM'de alan tahsis edilen veri tipleridir. Örnek: string, int.
 ### Primitive Type
 Türetilmemiş(ham) veri tipleridir. Örnek: byte
+Primitive kontrolü aşağıdaki gibi yapılır.
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("typeof(decimal).IsPrimitive);
+            Console.WriteLine("typeof(int).IsPrimitive);
+            Console.WriteLine("typeof(byte).IsPrimitive);
+        }
+    }
+```
