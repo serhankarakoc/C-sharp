@@ -100,11 +100,12 @@ namespace Test
 ## Değişkenler
 ### RAM Yapısı
 **Stack :** Değer türlü değişkenlerin tutulduğu bölüm.
+
 **Heap :** Nesnelerin tutulduğu bölüm.
 
-**Değersiz Tanımlama :** degisken_tipi degisken_adi; Örnek int a;
+**Değersiz değişken tanımlama :** degisken_tipi degisken_adi; Örnek int a;
 
-**Değerli Tanımlama :** degisken_tipi degisken_adi = deger; Örnek int a = 5;
+**Değerli değişken tanımlama :** degisken_tipi degisken_adi = deger; Örnek int a = 5;
 ### Value Type
 RAM'de alan tahsis edilen veri tipleridir. Örnek: string, int.
 ### Primitive Type
