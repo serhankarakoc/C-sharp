@@ -171,3 +171,5 @@ namespace Test
 **Mantıksal Değerler :** **bool** true yada false.
 
 **Sayısal Değerler :** **int** Sayının kendisi yazılır.
+
+**Tuple Türü :** (int a, int b) c = (5, 10); Bu değerlere c.a ve c.b şeklinde erişilir.
