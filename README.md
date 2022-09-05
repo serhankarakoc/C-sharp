@@ -154,3 +154,10 @@ namespace Test
 **string :** Tek bir karakter, sözcük veya cümle gibi değerlerin saklanmasında kullanılır.
 
 **boolean :** True – false değer tutan tiptir.
+
+### İsimlendirme kuralları
+**snake_case :** İsimlerin arasına alt tire işareti eklenir "_".
+
+**PascalCase :** İsimlerin ilk harfi büyük ve birleşik yazılır.
+
+**camelCase :** İsmin ilk harfi küçük diğerleri büyük ve birleşik yazılır.
