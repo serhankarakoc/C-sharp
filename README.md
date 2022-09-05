@@ -163,3 +163,11 @@ namespace Test
 **camelCase :** İsmin ilk harfi küçük diğerleri büyük ve birleşik yazılır.
 
 **Önemli :** Değişken isimlendirmelerinde sistemin kullandığı keywordler kullanılamaz. Eğer kullanılmak istenirse başına **@** işareti eklenmelidir.
+
+**Metinsel Değerler :** **string** Metin çift tırnak içerisine yazılır.
+
+**Karaktersel Değerler :** **char** Karakter tek tırnak arasına yazılır.
+
+**Mantıksal Değerler :** **bool** true yada false.
+
+**Sayısal Değerler :** **int** Sayının kendisi yazılır.
