@@ -179,3 +179,5 @@ namespace Test
 **Default Değer Atama :** bool x = default(bool);**(false)** int x = default(int);**(0)** string x = default(string);**(null)** char x = default(x);**(0'\0')**
 
 **Default Literal :** bool x = default;
+
+**Sabitler(const) :** Sistemdeki değişmeyen tanımlamalardır. Örnek const double pi = 3,14;
