@@ -173,3 +173,5 @@ namespace Test
 **Sayısal Değerler :** **int** Sayının kendisi yazılır.
 
 **Tuple Türü :** (int a, int b) c = (5, 10); Bu değerlere c.a ve c.b şeklinde erişilir.
+
+**Literal Düzenleme :** Sayıların daha kolay okunabilmesi için değere alt tire eklenmesi yapılabilir. Örnek int a = 1_000_000;
