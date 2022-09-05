@@ -175,3 +175,5 @@ namespace Test
 **Tuple Türü :** (int a, int b) c = (5, 10); Bu değerlere c.a ve c.b şeklinde erişilir.
 
 **Literal Düzenleme :** Sayıların daha kolay okunabilmesi için değere alt tire eklenmesi yapılabilir. Örnek int a = 1_000_000;
+
+**Default Değer Atama :** bool x = default(bool);**(false)** int x = default(int);**(0)** string x = default(string);**(null)** char x = default(x);**(0'\0')**
