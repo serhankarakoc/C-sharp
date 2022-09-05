@@ -177,3 +177,5 @@ namespace Test
 **Literal Düzenleme :** Sayıların daha kolay okunabilmesi için değere alt tire eklenmesi yapılabilir. Örnek int a = 1_000_000;
 
 **Default Değer Atama :** bool x = default(bool);**(false)** int x = default(int);**(0)** string x = default(string);**(null)** char x = default(x);**(0'\0')**
+
+**Default Literal :** bool x = default;
