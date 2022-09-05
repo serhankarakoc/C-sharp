@@ -161,3 +161,5 @@ namespace Test
 **PascalCase :** İsimlerin ilk harfi büyük ve birleşik yazılır.
 
 **camelCase :** İsmin ilk harfi küçük diğerleri büyük ve birleşik yazılır.
+
+**Önemli :** Değişken isimlendirmelerinde sistemin kullandığı keywordler kullanılamaz. Eğer kullanılmak istenirse başına **@** işareti eklenmelidir.
