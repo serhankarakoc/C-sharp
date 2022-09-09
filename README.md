@@ -188,4 +188,4 @@ namespace Test
 
 **Local Değişken :** Değişken metodun içerisinde tanımlanıyorsa bu değişkene local değişken denir.
 
-**object :** Referans türlü değişkendir.
+**object :** Referans türlü değişkendir. Her türlü değeri karşılayabilir.
