@@ -181,3 +181,7 @@ namespace Test
 **Default Literal :** bool x = default;
 
 **Sabitler(const) :** Sistemdeki değişmeyen tanımlamalardır. Örnek const double pi = 3,14;
+
+**Global Değişken :** Değişken class scope içerisinde tanımlanıyorsa bu değişkene global değişken denir.
+
+**Local Değişken :** Değişken metodun içerisinde tanımlanıyorsa bu değişkene local değişken denir.
