@@ -201,3 +201,4 @@ namespace Test
 **dynamic keyword :** Değişkenin türü derlendikten sonra belirlenir. Gelen değerin türünün bilinemediği durumlarda kullanılır.
 
 ## Tür Dönüşümleri
+**parse :** String türdeki verileri diğer veri türlerine dönüştürmede kullanılır.
