@@ -187,3 +187,5 @@ namespace Test
 **Global Değişken :** Değişken class scope içerisinde tanımlanıyorsa bu değişkene global değişken denir.
 
 **Local Değişken :** Değişken metodun içerisinde tanımlanıyorsa bu değişkene local değişken denir.
+
+**object :** Referans türlü değişkendir.
