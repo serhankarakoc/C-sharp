@@ -106,6 +106,8 @@ namespace Test
 **Değersiz değişken tanımlama :** degisken_tipi degisken_adi; Örnek int a;
 
 **Değerli değişken tanımlama :** degisken_tipi degisken_adi = deger; Örnek int a = 5;
+
+**Toplu değişken tanımlama :** degisken_tipi degisken_adi = deger, degisken_adi = deger; Örnek int a = 5, b = 10;
 ### Value Type
 RAM'de alan tahsis edilen veri tipleridir. Örnek: string, int.
 ### Primitive Type
