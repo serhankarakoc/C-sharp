@@ -204,3 +204,5 @@ namespace Test
 **()Parse :** String türdeki verileri diğer veri türlerine dönüştürmede kullanılır. string x1 = "123"; short x2 = short.Parse(x1);
 
 **Convert :** Bir türü diğer türe dönüştürmede kullanılır. string x1 = "123"; short x2 = Convert.ToInt32(x1);
+
+**ToString :** Bir türü string ifadeye dönüştürmede kullanılır. float x1 = 12; string x2 = x1.ToString();
