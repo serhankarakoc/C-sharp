@@ -195,3 +195,5 @@ namespace Test
 **Cast Operatörü :** (Tür)object; (int)x; int x = (int)x;
 
 **Unboxing :** object türdeki değişkenin değerlerini alma.
+
+**var keyword :** var keyword ile değişken tanımlanırsa o değişkenin türünü compiler belirler.
