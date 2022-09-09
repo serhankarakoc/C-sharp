@@ -197,3 +197,5 @@ namespace Test
 **Unboxing :** object türdeki değişkenin değerlerini alma.
 
 **var keyword :** var keyword ile değişken tanımlanırsa o değişkenin türünü compiler belirler.
+
+**dynamic keyword :** Değişkenin türü derlendikten sonra belirlenir.
