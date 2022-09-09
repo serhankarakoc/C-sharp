@@ -199,3 +199,5 @@ namespace Test
 **var keyword :** var keyword ile değişken tanımlanırsa o değişkenin türünü compiler belirler.
 
 **dynamic keyword :** Değişkenin türü derlendikten sonra belirlenir. Gelen değerin türünün bilinemediği durumlarda kullanılır.
+
+## Tür Dönüşümleri
