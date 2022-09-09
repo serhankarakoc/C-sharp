@@ -188,4 +188,4 @@ namespace Test
 
 **Local Değişken :** Değişken metodun içerisinde tanımlanıyorsa bu değişkene local değişken denir.
 
-**Shallow Copy :** referans
+**Shallow Copy :** Referans türlü değişken.
