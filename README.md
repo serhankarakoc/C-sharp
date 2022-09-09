@@ -189,3 +189,9 @@ namespace Test
 **Local Değişken :** Değişken metodun içerisinde tanımlanıyorsa bu değişkene local değişken denir.
 
 **object :** Referans türlü değişkendir. Her türlü değeri karşılayabilir.
+
+**Boxing :** object türdeki değişkene herhangi bir türdeki değeri göndermeye denir. object x = 5;
+
+**Cast Operatörü :** (Tür)object; (int)x; int x = (int)x;
+
+**Unboxing :** object türdeki değişkenin değerlerini alma.
