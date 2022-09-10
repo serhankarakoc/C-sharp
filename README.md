@@ -337,3 +337,36 @@ namespace Test
 ```
 
 **Not :** İki farklı türde sayısal değer üzerinde yapılan aritmetik işlem neticesinde sonuç büyük olan türde dönecektir.
+
+## Akış Kontrol Mekanizmaları
+**Switch Case:**
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                string name = "Ahmet"
+                
+                switch (name)
+                {
+                    case "Mehmet":
+                        Console.WriteLine("Ad Mehmet");
+                        break;
+                        
+                    case "Ayşe":
+                        Console.WriteLine("Ad Ayşe");
+                        break;
+                        
+                    default:
+                        Console.WriteLine("Hiçbiri");
+                        break;
+                }
+            }
+        }
+    }
+```
