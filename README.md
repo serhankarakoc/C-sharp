@@ -335,3 +335,5 @@ namespace Test
         }
     }
 ```
+
+**Not :** İki farklı türde sayısal değer üzerinde yapılan aritmetik işlem neticesinde sonuç büyük olan türde dönecektir.
