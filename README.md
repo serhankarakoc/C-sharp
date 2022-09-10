@@ -248,3 +248,29 @@ namespace Test
         }
     }
 ```
+
+**bool türünün sayısal değere dönüşümü :** bool türü sayısal değere dönüştürüldüğünde true değeri 1 false değeri 0 olur.
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            unchecked
+            {
+                bool a = true;
+                int a = Convert.ToInt32(a);
+                Console.WriteLine(a);
+                //Sonuç 1
+                
+                bool b = false;
+                int b = Convert.ToInt32(b);
+                Console.WriteLine(b);
+                //Sonuç 0
+            }
+        }
+    }
+```
