@@ -357,11 +357,9 @@ namespace Test
                     case "Mehmet":
                         Console.WriteLine("Ad Mehmet");
                         break;
-                        
-                    case "Ayşe":
-                        Console.WriteLine("Ad Ayşe");
+                    case "Ahmet":
+                        Console.WriteLine("Ad Ahmet");
                         break;
-                        
                     default:
                         Console.WriteLine("Hiçbiri");
                         break;
