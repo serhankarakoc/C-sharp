@@ -274,3 +274,29 @@ namespace Test
         }
     }
 ```
+
+**sayısal değerlerin bool türüne dönüşümü :** 0 false diğer tüm değerler true.
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            unchecked
+            {
+                int a = 0;
+                bool b = Convert.ToBoolean(a);
+                Console.WriteLine(b);
+                //Sonuç false
+                
+                int a = 1;
+                bool b = Convert.ToBoolean(a);
+                Console.WriteLine(b);
+                //Sonuç true
+            }
+        }
+    }
+```
