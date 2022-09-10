@@ -350,7 +350,7 @@ namespace Test
         static void Main(string[] args)
         {
             {
-                string name = "Ahmet"
+                string name = "Ahmet";
                 
                 switch (name)
                 {
@@ -362,6 +362,34 @@ namespace Test
                         break;
                     default:
                         Console.WriteLine("Hiçbiri");
+                        break;
+                }
+            }
+        }
+    }
+```
+
+**Switch Case When:**
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                int tutar = 1000;
+                
+                switch (tutar)
+                {
+                    case 1000 when (3 == 5):
+                        Console.WriteLine("1000 Değil");
+                        break;
+                    case 1000 when (3 == 3):
+                        //Bu blok çalışacak
+                        Console.WriteLine("Ad Ahmet");
                         break;
                 }
             }
