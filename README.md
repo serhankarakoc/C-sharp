@@ -206,3 +206,5 @@ namespace Test
 **Convert :** Bir türü diğer türe dönüştürmede kullanılır. string x1 = "123"; short x2 = Convert.ToInt32(x1);
 
 **ToString :** Bir türü string ifadeye dönüştürmede kullanılır. float x1 = 12; string x2 = x1.ToString();
+
+**Bilinçsiz/Bilinçli Dönüşüm :** Sayısal verilerde küçük veri tipinin büyük veri tipine dönüşmeni bilinçsiz dönüşüm, büyük veri tipinin küçük veri tipine dönüştürülmesi bilinçli dönüşümdür.
