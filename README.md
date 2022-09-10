@@ -259,7 +259,6 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            unchecked
             {
                 bool a = true;
                 int b = Convert.ToInt32(a);
@@ -285,7 +284,6 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            unchecked
             {
                 int a = 0;
                 bool b = Convert.ToBoolean(a);
@@ -296,6 +294,43 @@ namespace Test
                 bool b = Convert.ToBoolean(a);
                 Console.WriteLine(b);
                 //Sonuç true
+            }
+        }
+    }
+```
+
+**char türünün sayısal türe dönüştürülmesi (ASCII):**
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                char a = 'a';
+                long b = long(b);
+                Console.WriteLine(a);
+            }
+        }
+    }
+```
+
+**Sayısal türlerin char türüne dönüştürülmesi:**
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                int a = 1;
+                Console.WriteLine((char)a);
             }
         }
     }
