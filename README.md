@@ -207,4 +207,4 @@ namespace Test
 
 **ToString :** Bir türü string ifadeye dönüştürmede kullanılır. float x1 = 12; string x2 = x1.ToString();
 
-**Bilinçsiz/Bilinçli Dönüşüm :** Sayısal verilerde küçük veri tipinin büyük veri tipine dönüşmeni bilinçsiz dönüşüm, büyük veri tipinin küçük veri tipine dönüştürülmesi bilinçli dönüşümdür.
+**Bilinçsiz/Bilinçli Dönüşüm :** Sayısal veri tipinin kendisinden daha geniş aralıktaki bir veri tipine dönüşümü bilinçsiz dönüşüm, kendisinden daha dar veri tipine dönüşümü bilinçli dönüşümdür.
