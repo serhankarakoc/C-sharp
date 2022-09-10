@@ -208,3 +208,23 @@ namespace Test
 **ToString :** Bir türü string ifadeye dönüştürmede kullanılır. float x1 = 12; string x2 = x1.ToString();
 
 **Bilinçsiz/Bilinçli Dönüşüm :** Sayısal veri tipinin kendisinden daha geniş aralıktaki bir veri tipine dönüşümü bilinçsiz dönüşüm, kendisinden daha dar veri tipine dönüşümü bilinçli dönüşümdür.
+
+**checked :** Bilinçli tür dönüşümlerinde veri kaybı olma ihtimali olan kod bloklarını runtime esnasında kontrol eden yapıdır.
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            checked
+            {
+                int a = 500;
+                byte b = byte(a);
+                Console.WriteLine(b);
+            }
+        }
+    }
+```
