@@ -262,12 +262,12 @@ namespace Test
             unchecked
             {
                 bool a = true;
-                int a = Convert.ToInt32(a);
-                Console.WriteLine(a);
+                int b = Convert.ToInt32(a);
+                Console.WriteLine(b);
                 //Sonuç 1
                 
-                bool b = false;
-                int b = Convert.ToInt32(b);
+                bool a = false;
+                int b = Convert.ToInt32(a);
                 Console.WriteLine(b);
                 //Sonuç 0
             }
