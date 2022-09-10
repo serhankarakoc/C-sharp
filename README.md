@@ -228,3 +228,23 @@ namespace Test
         }
     }
 ```
+
+**unchecked :** Bilinçli tür dönüşümlerinde veri kaybı olma ihtimali olan kod bloklarını runtime esnasında gözardı eden yapıdır.
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            unchecked
+            {
+                int a = 500;
+                byte b = byte(a);
+                Console.WriteLine(b);
+            }
+        }
+    }
+```
