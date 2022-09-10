@@ -201,7 +201,7 @@ namespace Test
 **dynamic keyword :** Değişkenin türü derlendikten sonra belirlenir. Gelen değerin türünün bilinemediği durumlarda kullanılır.
 
 ## Tür Dönüşümleri
-**()Parse :** String türdeki verileri diğer veri türlerine dönüştürmede kullanılır. string x1 = "123"; short x2 = short.Parse(x1);
+**Parse :** String türdeki verileri diğer veri türlerine dönüştürmede kullanılır. string x1 = "123"; short x2 = short.Parse(x1);
 
 **Convert :** Bir türü diğer türe dönüştürmede kullanılır. string x1 = "123"; short x2 = Convert.ToInt32(x1);
 
