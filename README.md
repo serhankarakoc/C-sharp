@@ -505,3 +505,27 @@ namespace Test
         }
     }
 ```
+
+**Switch Expressions - Tuple Patterns:**
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                int s1 = 10;
+                int s2 = 20;
+                
+                string mesaj = (s1, s2) switch
+                {
+                    (5, 10) => "5 ile 10 değerleri",
+                    (10, 20) => "10 ile 20 değerleri"
+                };
+            }
+        }
+    }
+```
