@@ -451,7 +451,7 @@ namespace Test
                         break;
                     case 7:
                     case 10:
-                        // case 10 olursa 5 teki işlemi yap.
+                        // case 10 olursa 5 teki işlemi yap. Bu şekildede yazılabilir. 7 veya 10 da 5 teki işlemi yap.
                         goto case 5;
                 }
             }
