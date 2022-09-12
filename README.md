@@ -429,3 +429,32 @@ namespace Test
         }
     }
 ```
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                int i = 10;
+                
+                switch (tutar)
+                {
+                    case 5:
+                        Console.WriteLine(i * 2);
+                        break;
+                    case 6:
+                        Console.WriteLine(i * 3);
+                        break;
+                    case 7:
+                    case 10:
+                        // case 10 olursa 5 teki işlemi yap.
+                        goto case 5;
+                }
+            }
+        }
+    }
+```
