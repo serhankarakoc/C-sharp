@@ -482,3 +482,26 @@ namespace Test
         }
     }
 ```
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                int i = 10;
+                
+                string isim = i switch
+                {
+                    5 when 3 == 3 => "Murat",
+                    int x when x == 7 && x % 2 == 1 => "Ahmet",
+                    10 => "Fikri",
+                    var x => "Hiçbiri"
+                };
+            }
+        }
+    }
+```
