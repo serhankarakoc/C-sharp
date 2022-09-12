@@ -458,3 +458,27 @@ namespace Test
         }
     }
 ```
+
+**Switch Expressions:**
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                int i = 10;
+                
+                string isim = i switch
+                {
+                    5 => "Murat",
+                    6 => "Ahmet",
+                    10 => "Fikri"
+                };
+            }
+        }
+    }
+```
