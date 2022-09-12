@@ -671,3 +671,25 @@ namespace Test
             }
         }
     }
+```
+**Pattern Matching - Var Pattern:**
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                object x = "Türkiye";
+                
+                if (x is var a)
+                {
+                    Console.WriteLine(a);
+                }
+            }
+        }
+    }
+```   
