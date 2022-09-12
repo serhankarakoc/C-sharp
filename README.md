@@ -651,3 +651,23 @@ namespace Test
         }
     }
 ```
+**Pattern Matching - Constant Pattern:**
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                object x = 125;
+                
+                if (x is 125)
+                {
+                    Console.WriteLine($"x değeri 125");
+                }
+            }
+        }
+    }
