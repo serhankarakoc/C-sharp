@@ -597,3 +597,31 @@ namespace Test
         }
     }
 ```
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                string name = "Ahmet";
+                
+                if (name == "Ahmet")
+                {
+                    Console.WriteLine("İsim Ahmet");
+                }
+                else if (name == "Mehmet")
+                {
+                    Console.WriteLine("İsim Mehmet");
+                }
+                else
+                {
+                    Console.WriteLine("İsim Yok");
+                }
+            }
+        }
+    }
+```
