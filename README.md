@@ -625,3 +625,29 @@ namespace Test
         }
     }
 ```
+
+**Pattern Matching - Type Pattern:**
+```c#
+using System
+
+namespace Test
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                object x = 125;
+                
+                if (x is string xx)
+                {
+                    Console.WriteLine($"x değişkeni string tipindedir.");
+                }
+                else if (x is int xx)
+                {
+                    Console.WriteLine($"x değişkeni int tipindedir.");
+                }
+            }
+        }
+    }
+```
